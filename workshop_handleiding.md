@@ -40,6 +40,12 @@ Voor de daadwerkelijke workshop gaan we werken met de Anthropic Python SDK.
    ```bash
    python setup.py
    ```
+10. Krijg je een SSL CERTIFICATE_VERIFY_FAILED error? Vervang dan de regel `client = anthropic.Anthropic()` door
+```python
+import httpx
+client = anthropic.Anthropic(http_client=httpx.Client(verify=False))
+```
+Dit dient in elk script te gebeuren dat een anthropic client aanmaakt. Voor alle duidelijkheid: dit is geen best-practise, maar voor deze workshop wel zo handig. Best practise is het laden van het antrhopic certificaat in een truststore.
 
 ---
 
