@@ -1,0 +1,50 @@
+[
+	{
+		"factuurnummer": "FAC-2026-001",
+		"factuurdatum": "2026-10-02",
+		"vervaldatum": "2026-10-16",
+		"klantnaam": "Apex Tech Solutions",
+		"omschrijving": "Software-ontwikkeling Sprint 1",
+		"bedrag_excl_btw": 3500.0,
+		"btw_tarief_percentage": 21,
+		"btw_bedrag": 735.0,
+		"totaalbedrag_incl_btw": 4235.0,
+		"status": "Betaald"
+	},
+	{
+		"factuurnummer": "FAC-2026-002",
+		"factuurdatum": "2026-10-05",
+		"vervaldatum": "2026-10-19",
+		"klantnaam": "Bakkerij De Graaf",
+		"omschrijving": "ICT-onderhoud Q3",
+		"bedrag_excl_btw": 850.0,
+		"btw_tarief_percentage": 21,
+		"btw_bedrag": 178.5,
+		"totaalbedrag_incl_btw": 1028.5,
+		"status": "Betaald"
+	},
+	{
+		"factuurnummer": "FAC-2026-004",
+		"factuurdatum": "2026-10-10",
+		"vervaldatum": "2026-10-24",
+		"klantnaam": "Van Dijk Logistics",
+		"omschrijving": "Adviesuren Systeemarchitectuur",
+		"bedrag_excl_btw": 1800.0,
+		"btw_tarief_percentage": 21,
+		"btw_bedrag": 378.0,
+		"totaalbedrag_incl_btw": 2178.0,
+		"status": "Openstaand"
+	},
+	{
+		"factuurnummer": "FAC-2026-015",
+		"factuurdatum": "2026-10-26",
+		"vervaldatum": "2026-11-09",
+		"klantnaam": "Van Dijk Logistics",
+		"omschrijving": "Workshop Agentic AI / Automatisering",
+		"bedrag_excl_btw": 1500.0,
+		"btw_tarief_percentage": 21,
+		"btw_bedrag": 315.0,
+		"totaalbedrag_incl_btw": 1815.0,
+		"status": "In behandeling"
+	}
+]
